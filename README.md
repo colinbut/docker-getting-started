@@ -88,3 +88,18 @@ docker run -i -t <tag name>
 ```
 docker run -d -p 8080:8080 --name <docker-container-name>
 ```
+
+## General Usage
+
+Common usage is:
+
+- Develop your app and wrap it under docker container by writing a Dockerfile
+- build this docker file
+- save it if necessary
+- load it if necessary
+- run it (locally)
+- tag it if necessary
+- push it to docker registry (e.g. DockerHub)
+
+- can also pull from docker registry 
+
