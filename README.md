@@ -76,3 +76,15 @@ docker logs
 ```
 docker build -t <tag name> .
 ```
+
+```
+docker run -d -P <tag name>
+```
+
+```
+docker run -i -t <tag name>
+```
+
+```
+docker run -d -p 8080:8080 --name <docker-container-name>
+```
