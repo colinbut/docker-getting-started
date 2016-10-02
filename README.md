@@ -17,5 +17,62 @@ __Docker for Mac__ is very simple and very intuitive to use. Everything need to 
 
 Pretty straight forward in just following the docker guides on installation. For __Docker for Mac__ just double click the .dmg file and drag the Docker app to Applications folder.
 
+## Docker Commands
 
+The following docker commands are most used by me. Need to know.
 
+```
+docker version
+```
+
+```
+docker --version
+```
+
+```
+docker images
+```
+
+```
+docker rmi <image id>
+```
+
+```
+docker ps
+```
+
+```
+docker ps -a
+```
+
+```
+docker run <docker image>
+```
+
+```
+docker rm <container id>
+```
+
+```
+docker stop <container id>
+```
+
+```
+docker start <container id>
+```
+
+```
+docker restart <container id>
+```
+
+```
+docker port
+```
+
+```
+docker logs
+```
+
+```
+docker build -t <tag name> .
+```
